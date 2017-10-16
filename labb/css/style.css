@@ -1,0 +1,175 @@
+body{
+	font-family: Arial;
+	margin: 0;
+}
+
+.wrappper{
+	min-height:100%;
+	position:relative;
+}
+.footerwrap{
+	/*position:absolute;
+	bottom:0;
+	left:0;*/
+	overflow: hidden;
+	height: 220px;
+}
+
+header{
+	/*position: fixed;
+	top: 0;*/
+	width: 100%;
+/*	margin-top: -16px;*/
+}
+
+ul.main_menu{
+	list-style: none;
+	background-color: #0031e6;
+	padding: 20px 10px 40px 10px;
+}
+ul.main_menu li{
+	float: left;
+	padding-left: 30px;
+}
+
+ul.main_menu li a{
+	color: #fff;
+	text-decoration: none;
+}
+ul.main_menu li a:hover{
+	color: #969696;
+}
+
+ul.main_menu .active{
+	border-bottom: 3px solid #fff;
+}
+
+
+
+.main_content {
+	padding: 30px 30px 30px 39px;
+	/*margin-top: 50px;*/
+}
+
+
+
+footer{
+	padding: 10px 30px 20px 30px;
+	background-color: #0031e6;
+	color: white;
+	width: 100%;
+}
+div.footer_text{
+	width: 40%;
+}
+a.footer_link{
+	color: white;
+	text-decoration: none;
+}
+a.footer_link:hover{
+	color: #eee;
+}
+
+
+
+/*start*/
+.header_img{
+	width: 100%;
+	margin-top: -20px;
+}
+
+p#short_text{
+	width: 50%;
+}
+
+/*About*/
+.author_img{
+	width: 100px;
+}
+
+/*browse*/
+input[type=submit]{
+	margin-top: 10px;
+}
+input[type=submit]{
+	border: none;
+	background-color: #0031e6;
+	width: 200px;
+	height: 30px;
+	color: white;
+	cursor: pointer;
+}
+input[type=submit]:hover{
+	border: none;
+	background-color: #eee;
+	color: #0031e6;
+}
+
+input[type=text]{
+	border: 0.5px solid #0031e6;
+	background-color: #eee;
+	width: 200px;
+	height: 30px;
+}
+input[type=password]{
+	border: 0.5px solid #0031e6;
+	background-color: #eee;
+	width: 200px;
+	height: 30px;
+}
+table{
+	border: 1px solid #0031e6;
+	border-collapse: collapse;
+}
+
+td{
+	padding: 5px;
+}
+
+tr:nth-child(even){
+	background-color: #eee;
+}
+
+button.reserve{
+	border: none;
+	background-color: #0031e6;
+	color: white;
+	cursor: pointer;
+}
+
+
+/*my books*/
+ul.my_list{
+	list-style: none;
+	padding: 0px; 
+}
+
+ul.my_list li p, button.return_right{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+button.return_right{
+	border: none;
+	background-color: #0031e6;
+	color: white;
+	cursor: pointer;
+	margin-left: 30px; 
+}
+
+/*contact*/
+textarea{
+	border: 0.5px solid #0031e6;
+	background-color: #eee;
+}
+
+
+.gallery_img {
+	width: 150px;
+
+}
+
+
+
+
+
